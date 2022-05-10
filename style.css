@@ -6,18 +6,18 @@ body{
     overflow:hidden;
     background-color:#fff;
 }
-#svg2 {width:100%!important;height:100vh!important;background:transparent}
+#svg2 {width:400px!important;height:400px!important;background:transparent}
 
-.fish-eye {fill:yellow;}
-.fish-head {fill:yellow;}
-.fish-body1 {fill:red}
-.fish-body2 {fill:violet}
-.fish-body3 {fill:green}
-.fish-body4 {fill:gold}
-.fish-body5 {fill:greenyellow}
-.fish-tail {fill:blueviolet}
-.fish-top {fill:aquamarine}
-.fish-botton {fill:aquamarine}
+.fish-eye {fill:#fff;mix-blend-mode:hue;}
+.fish-head {fill:yellow;mix-blend-mode:hue;}
+.fish-body1 {fill:red;mix-blend-mode:hue;}
+.fish-body2 {fill:violet;mix-blend-mode:hue;}
+.fish-body3 {fill:green;mix-blend-mode:hue;}
+.fish-body4 {fill:gold;mix-blend-mode:hue;}
+.fish-body5 {fill:greenyellow;mix-blend-mode:hue;}
+.fish-tail {fill:blueviolet;mix-blend-mode:hue;}
+.fish-top {fill:aquamarine;mix-blend-mode:hue;}
+.fish-botton {fill:aquamarine;mix-blend-mode:hue;}
 
-.picker {position:absolute;top:0;left:0;z-index:100;}
+.picker {z-index:100;}
 .picker > input[type=color] {width:30px;height:30px;border-radius:100%;border-color:transparent}
