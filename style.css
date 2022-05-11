@@ -6,18 +6,18 @@ body{
     overflow:hidden;
     background-color:#fff;
 }
-#svg2 {width:400px!important;height:400px!important;background:transparent}
+#svg2 {position:relative;width:400px!important;height:400px!important;background:transparent}
 
-.fish-eye {fill:#fff;mix-blend-mode:hue;}
-.fish-head {fill:yellow;mix-blend-mode:hue;}
-.fish-body1 {fill:red;mix-blend-mode:hue;}
-.fish-body2 {fill:violet;mix-blend-mode:hue;}
-.fish-body3 {fill:green;mix-blend-mode:hue;}
-.fish-body4 {fill:gold;mix-blend-mode:hue;}
-.fish-body5 {fill:greenyellow;mix-blend-mode:hue;}
-.fish-tail {fill:blueviolet;mix-blend-mode:hue;}
-.fish-top {fill:aquamarine;mix-blend-mode:hue;}
-.fish-botton {fill:aquamarine;mix-blend-mode:hue;}
+.fish-eye {opacity:.9;fill:none;mix-blend-mode:multiply;}
+.fish-head {opacity:.9;fill:#fff;mix-blend-mode:multiply;}
+.fish-body1 {opacity:.9;fill:#fff;mix-blend-mode:multiply;}
+.fish-body2 {opacity:.9;fill:#fff;mix-blend-mode:multiply;}
+.fish-body3 {opacity:.9;fill:#fff;mix-blend-mode:multiply;}
+.fish-body4 {opacity:.9;fill:#fff;mix-blend-mode:multiply;}
+.fish-body5 {opacity:.9;fill:#fff;mix-blend-mode:multiply;}
+.fish-tail {opacity:.9;fill:#fff;mix-blend-mode:multiply;}
+.fish-top {opacity:.9;fill:#fff;mix-blend-mode:multiply;}
+.fish-bottom {opacity:.9;fill:#fff;mix-blend-mode:multiply;}
 
 .picker {z-index:100;}
 .picker > input[type=color] {width:30px;height:30px;border-radius:100%;border-color:transparent}
